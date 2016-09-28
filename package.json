@@ -1,0 +1,14 @@
+{
+  "name": "JavaScript-Basic",
+  "version": "0.0.1",
+  "description": "",
+  "repository": {},
+  "license": "",
+  "homepage": "tea.fish",
+  "dependencies": {},
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-less": "^3.0.5"
+   
+  }
+}

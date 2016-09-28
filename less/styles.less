@@ -1,0 +1,42 @@
+@gray: #cccccc;
+@screenHeight: 500px;
+
+
+a{
+	color: @gray;
+}
+
+body {
+	height: @screenHeight;
+	backgroud: @gray + 1000;
+}
+
+
+#wrapper {
+	height: @screenHeight;
+
+}
+
+#header {
+	height: 100px;
+
+	& .navgation {
+		height: 100%;
+
+
+		& ul {
+			width: 90%;
+		}
+	}
+}
+
+
+
+#content {
+	height: @screenHeight - 100px;
+}
+
+#footer {
+	
+
+}
