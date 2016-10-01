@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Generator" content="EditPlus®">
+    <meta name="Author" content="">
+    <meta name="Keywords" content="">
+    <meta name="Description" content="">
+    <title>insertBefore html Demo</title>
+</head>
+<body>
+
+
+
+<div id="content">
+	<div id="fineprint"></div>
+</div>
+<div id="headline"></div>
+
+    <script>
+        var container = document.getElementById("content");
+		var message = document.getElementById("fineprint");
+		var annoucement = document.getElementById("headline");
+		var para  = document.createElement("p");
+		var text = document.createTextNode("hello!world.");
+		para.appendChild(text);
+		container.insertBefore(annoucement, message);
+		container.replaceChild(para,message);
+    </script>
+</body>
+</html>
